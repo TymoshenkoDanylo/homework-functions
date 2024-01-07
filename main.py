@@ -43,4 +43,40 @@
 #     print(search_min)
 # except Exception as error:
 #     print(f"ExceptionError: {error}")
-# print(search_min)
+
+
+# Завдання 3
+#
+# Напишіть функцію, яка визначає кількість простих чисел у списку цілих.
+# Список передається як параметр.
+# Отриманий результат повертається із функції.
+
+# import random
+#
+# number_list = [random.randint(1, 5) for _ in range(5)]
+# print(number_list)
+#
+#
+# def count_prime(new_list):
+#     count = 0
+#     for i in new_list:
+#         if prime(i):
+#             count += 1
+#
+#     return count
+#
+#
+# def prime(number):
+#     if number <= 1:
+#         return False
+#     for i in range(2, int(number ** 0.5) + 1):
+#         if number % i == 0:
+#             return False
+#     return True
+#
+#
+# try:
+#     count_prime_numbers = count_prime(number_list)
+#     print(count_prime_numbers)
+# except Exception as error:
+#     print(f"ExceptionError: {error}")
