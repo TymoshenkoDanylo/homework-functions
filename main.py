@@ -120,10 +120,10 @@
 #     return list(set().union(list1, list2))
 #
 
-try:
-    combine_lists = combine_lists(first_letter,second_letter)
-    print(combine_lists)
-except Exception as error:
-    print(f"ExceptionError: {error}")
+# try:
+#     combine_lists = combine_lists(first_letter,second_letter)
+#     print(combine_lists)
+# except Exception as error:
+#     print(f"ExceptionError: {error}")
 
 
