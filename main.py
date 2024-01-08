@@ -127,3 +127,26 @@
 #     print(f"ExceptionError: {error}")
 
 
+# Завдання 6
+# Напишіть функцію, яка обчислює ступінь кожного елемента списку цілих.
+# Значення для ступеня передається як параметр, список також передається як параметр.
+# Функція повертає новий список, який містить отримані результати.
+#
+# import random
+#
+# number_list = [random.randint(1, 5) for _ in range(5)]
+# print(number_list)
+#
+#
+# def my_pow(lists, degree):
+#     new_list = []
+#     for i in lists:
+#         new_list.append(i ** degree)
+#     return new_list
+#
+#
+# try:
+#     my_pow = my_pow(number_list, 2)
+#     print(my_pow)
+# except Exception as error:
+#     print(f"ExceptionError: {error}")
