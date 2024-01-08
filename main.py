@@ -80,3 +80,25 @@
 #     print(count_prime_numbers)
 # except Exception as error:
 #     print(f"ExceptionError: {error}")
+
+import random
+
+number_list = [random.randint(1, 5) for _ in range(5)]
+print(number_list)
+
+
+
+def remove_number(list_, number):
+    count = 0
+    for i in range(len(list_)):
+        if list_[i] == number:
+            list_.pop(i)
+            count += 1
+    return count
+
+
+try:
+    remove_number = remove_number(number_list, 3)
+    print(remove_number)
+except Exception as error:
+    print(f"ExceptionError: {error}")
