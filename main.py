@@ -81,6 +81,11 @@
 # except Exception as error:
 #     print(f"ExceptionError: {error}")
 
+
+# Завдання 4
+# Напишіть функцію, яка видаляє зі списку ціле задане число.
+# З функції потрібно повернути кількість видаленних елементів.
+
 # import random
 #
 # number_list = [random.randint(1, 5) for _ in range(5)]
