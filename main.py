@@ -81,24 +81,49 @@
 # except Exception as error:
 #     print(f"ExceptionError: {error}")
 
-import random
+# import random
+#
+# number_list = [random.randint(1, 5) for _ in range(5)]
+# print(number_list)
+#
+#
+#
+# def remove_number(list_, number):
+#     count = 0
+#     for i in range(len(list_)):
+#         if list_[i] == number:
+#             list_.pop(i)
+#             count += 1
+#     return count
+#
+#
+# try:
+#     remove_number = remove_number(number_list, 3)
+#     print(remove_number)
+# except Exception as error:
+#     print(f"ExceptionError: {error}")
 
-number_list = [random.randint(1, 5) for _ in range(5)]
-print(number_list)
 
+# Завдання 5
+# Напишіть функцію, яка отримує два списки як параметр
+# і повертає список, що містить елементи обох списків.
 
-
-def remove_number(list_, number):
-    count = 0
-    for i in range(len(list_)):
-        if list_[i] == number:
-            list_.pop(i)
-            count += 1
-    return count
-
+# import random
+#
+# first_letter = [random.randint(1, 5) for _ in range(5)]
+# second_letter = [random.randint(1, 5) for _ in range(5)]
+# print(first_letter)
+# print(second_letter)
+#
+#
+# def combine_lists(list1, list2):
+#     return list(set().union(list1, list2))
+#
 
 try:
-    remove_number = remove_number(number_list, 3)
-    print(remove_number)
+    combine_lists = combine_lists(first_letter,second_letter)
+    print(combine_lists)
 except Exception as error:
     print(f"ExceptionError: {error}")
+
+
